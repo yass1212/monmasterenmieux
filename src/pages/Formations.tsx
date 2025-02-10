@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Box, Container, Heading, Text, Spinner, useToast, Button, HStack, VStack, Collapse, IconButton, Table, Thead, Tbody, Tr, Th, Td } from '@chakra-ui/react'
-import { ChevronDownIcon, ChevronUpIcon, StarIcon } from '@chakra-ui/icons'
+import { StarIcon } from '@chakra-ui/icons'
 import { useSearchParams } from 'react-router-dom'
 import SearchInput from '../components/SearchInput'
 
