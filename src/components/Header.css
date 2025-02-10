@@ -1,0 +1,110 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-bottom: 0.2px solid rgba(128, 128, 128, 0.446);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: inherit;       
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: inherit;       
+  }
+
+
+  .header-titre {
+    text-decoration: none;
+    color: inherit;
+    display: flex;                
+    align-items: center;          
+    justify-content: flex-start;
+    min-height: 40px;
+  }
+  
+
+  .header-titre:hover {
+    text-decoration: none;
+    color: inherit;       
+  }
+
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    margin: 0 -3px;
+  }
+  
+  .nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .nav a:hover {
+    background-color: #9b5af13d;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+  }
+  
+  .logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+
+  .logo-img-header {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .logo:hover {
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    background-color: #9b5af118;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 0px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
